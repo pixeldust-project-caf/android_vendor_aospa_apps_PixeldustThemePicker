@@ -1,4 +1,4 @@
-package com.statix.android.customization.module;
+package com.pixeldust.android.customization.module;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -22,16 +22,16 @@ import com.android.wallpaper.model.WallpaperSectionController;
 import com.android.wallpaper.model.WorkspaceViewModel;
 import com.android.wallpaper.module.CustomizationSections;
 
-import com.statix.android.customization.model.font.FontManager;
-import com.statix.android.customization.model.font.FontSectionController;
-import com.statix.android.customization.model.iconpack.IconPackManager;
-import com.statix.android.customization.model.iconpack.IconPackSectionController;
+import com.pixeldust.android.customization.model.font.FontManager;
+import com.pixeldust.android.customization.model.font.FontSectionController;
+import com.pixeldust.android.customization.model.iconpack.IconPackManager;
+import com.pixeldust.android.customization.model.iconpack.IconPackSectionController;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /** {@link CustomizationSections} for the customization picker. */
-public final class StatixCustomizationSections implements CustomizationSections {
+public final class PixeldustCustomizationSections implements CustomizationSections {
 
     @Override
     public List<CustomizationSectionController<?>> getAllSectionControllers(Activity activity,
